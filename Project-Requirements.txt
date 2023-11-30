@@ -1,0 +1,54 @@
+Assessment Task Detail and Instructions:
+This is one of two module assessments, worth 60% of the total module mark, but you'll be receiving a mark out of 100% for it. You will need to submit your work to Canvas (more info to be given closer to the deadline) before the deadline shown on this Assessment Information page. Please pay close attention to given instructions - submit the correct work and before the deadline.
+
+You need to submit your code as text files (extension .txt) containing the C Programming Code for the Car Sales Project and a Logbook (Word/PDF/text document) detailing your engagement with the Pluralsight platform, including your Pluralsight C exam (test) results (please see this page for information on it) to Canvas.
+
+The Car Sales Project must output to the Console (i.e. the Command Prompt using printf) and it must have the following features as a minimum:
+
+4%: Looping Menu with 4 main actions:
+View Cars Stock,
+Buy Cars,
+View Sales Data, and
+Customer Feedback.
+
+5%: Must contain at least four arrays to store car information (maximum of 15 Car models). A Car is defined by its price, model, and year of manufacture. The arrays should cover:
+Two for recording the price and model of a car
+One for recording the year of manufacture of each car
+One for recording the remaining amount of each car model
+
+5%: View Cars Stock will show a list of models, year of manufacture, and remaining amount
+
+4%: Sorted by year of manufacture in descending order
+
+5%: Buying Cars needs to record the total price, customer name, customer age, if a discount was given, discount value, number of cars, and date of purchase. Update existing car arrays as necessary once a sale is concluded.
+
+4%: Any data being accepted from the keyboard needs to be validated and filtered (i.e. only accept correct data from the customer and keep asking until correct data is entered - see the Week 6 project DealingWithUserInput.zip for guidance)
+
+5%: Sales Data for a Car Model is also displayed as a total sum for each model, in addition to displaying what each customer bought (e.g. BMW sold 5 units for a total of £50,000, Mercedes sold 4 units for a total of £40,000)
+
+4%: Sorted by total sale amount in descending order
+
+5%: Sales Data is to be stored in a file
+
+4%: When the program launches, it should read previous sales data from the file, if it exists, to be used as initial data
+
+5%: Customer Feedback: After a purchase, the customer can leave feedback (rating out of 5 and a short comment). This feedback should be stored and associated with the car model they purchased.
+
+15%: Make use of topics not taught in the module, but can be applied in a relevant way to this software project (do not include features/topics just for the sake of showing that you know how to use/implement it, instead consider why it will improve the software for the user) - e.g. dynamic memory allocation, file encryption for data protection
+
+5%: Your code needs to follow recommended coding standards and good practice (see Week 2)
+
+20%: You MUST demonstrate your code in a short one to one discussion with your lab tutor. This will be arranged during the last 2 weeks of the module and it will be handled in a first-come-first-served manner i.e. there won't be a precise student demo schedule, just attend the lab session during the last 2 weeks and attempt to get time with the tutor.
+
+10%: Also submit a Logbook detailing:
+your engagement with the Pluralsight platform, including your Pluralsight C exam (test) results (see this page for information)
+a short essay reflecting on your own programming skills as they stand at the end of this module
+a plan of your personal development (soft and hard skills) over the next 2 years that will serve as a path to success as you will be approaching the end of your studies.
+
+Total: 100%
+
+Note: Please do not feel like you need to limit yourselves to the above features list. I'm happy for you to explore adding in other features beyond the ones listed (but as a minimum the program must exhibit those features mentioned above).
+
+The marks are awarded based on the complexity of each feature, as the case may be. For example, having a Looping Menu that does not validate user input (i.e. it blindly trusts the keyboard input), but works well for its intended purpose is worth 2%, while also validating the user's choice (i.e. did they type an expected character that's part of the menu? - switch does not count for this purpose) before it is fully accepted would attract 3-4% (assuming the code works as intended with no issues), depending on the technical quality of the work. A similar approach will be taken when marking the entire project.
+
+Overall, the project must compile, run, and be reasonably complete as far as the required features are concerned for maximum (i.e. 100%) marks. For example, data input validation and pretty outputs will improve the quality of the work. The same goes for adhering to Coding Standards (see Week 2), appropriate comments, and appropriate indentation and spacing.
