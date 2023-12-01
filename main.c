@@ -627,8 +627,8 @@ void UpdateJsonFile(struct Car carData[], int numberOfCars, struct Transaction t
         fprintf(jsonFile, "      \"car_model\": \"%s\",\n", carData[i].car_model);
         fprintf(jsonFile, "      \"price\": %d,\n", carData[i].price);
         fprintf(jsonFile, "      \"year_of_manufacture\": %d,\n", carData[i].year_of_manufacture);
-        fprintf(jsonFile, "      \"remaining_amount\": %d\n", carData[i].remaining_amount);
-        fprintf(jsonFile, "      \"sold_amount\": %d\n", carData[i].sold_amount);
+        fprintf(jsonFile, "      \"remaining_amount\": %d,\n", carData[i].remaining_amount);
+        fprintf(jsonFile, "      \"sold_amount\": %d,\n", carData[i].sold_amount);
         fprintf(jsonFile, "      \"total_sales_amount\": %d\n", carData[i].total_sales_amount);
 
 
