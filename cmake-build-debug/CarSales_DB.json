@@ -1,0 +1,106 @@
+{
+  "cars": [
+    {
+      "car_id": 3,
+      "car_make": "Audi",
+      "car_model": "A6",
+      "price": 48000,
+      "year_of_manufacture": 2022,
+      "remaining_amount": 0,
+      "sold_amount": 9,
+      "total_sales_amount": 432000
+    },
+    {
+      "car_id": 4,
+      "car_make": "BMW",
+      "car_model": "5 Series",
+      "price": 80000,
+      "year_of_manufacture": 2022,
+      "remaining_amount": 2,
+      "sold_amount": 5,
+      "total_sales_amount": 400000
+    },
+    {
+      "car_id": 2,
+      "car_make": "Mercedes-Benz",
+      "car_model": "C-Class",
+      "price": 45000,
+      "year_of_manufacture": 2021,
+      "remaining_amount": 12,
+      "sold_amount": 0,
+      "total_sales_amount": 0
+    },
+    {
+      "car_id": 1,
+      "car_make": "Ford",
+      "car_model": "Fusion",
+      "price": 22000,
+      "year_of_manufacture": 2020,
+      "remaining_amount": 15,
+      "sold_amount": 0,
+      "total_sales_amount": 0
+    }
+  ]
+},
+{
+  "user_transactions": [
+    {
+      "customer_name": "Sahil",
+      "customer_age": 21,
+      "transaction_car_make": "Audi",
+      "transaction_car_model": "A6",
+      "transaction_year_of_manufacture": 2022,
+      "total_price_of_transaction": 432000,
+      "discount_given": false,
+      "discount_value": 0,
+      "number_of_purchased_cars": 9,
+      "date_of_purchase": "1\12\2023"
+    },
+    {
+      "customer_name": "Sahil",
+      "customer_age": 21,
+      "transaction_car_make": "BMW",
+      "transaction_car_model": "5 Series",
+      "transaction_year_of_manufacture": 2022,
+      "total_price_of_transaction": 240000,
+      "discount_given": false,
+      "discount_value": 0,
+      "number_of_purchased_cars": 3,
+      "date_of_purchase": "1\12\2023"
+    },
+    {
+      "customer_name": "Danny",
+      "customer_age": 19,
+      "transaction_car_make": "BMW",
+      "transaction_car_model": "5 Series",
+      "transaction_year_of_manufacture": 2022,
+      "total_price_of_transaction": 160000,
+      "discount_given": false,
+      "discount_value": 0,
+      "number_of_purchased_cars": 2,
+      "date_of_purchase": "1\12\2023"
+    }
+  ]
+},
+{
+  "customer_feedback": [
+    {
+      "customer_name": "Sahil",
+      "feedback_car_make": "Audi",
+      "feedback_car_model": "A6",
+      "feedback_year_of_manufacture": 2022,
+      "number_of_purchased_cars": 9,
+      "feedback_rating": 5,
+      "feedback_comment": "great",
+    },
+    {
+      "customer_name": "Danny",
+      "feedback_car_make": "BMW",
+      "feedback_car_model": "5 Series",
+      "feedback_year_of_manufacture": 2022,
+      "number_of_purchased_cars": 2,
+      "feedback_rating": 3,
+      "feedback_comment": "greatt 2",
+    }
+  ]
+},

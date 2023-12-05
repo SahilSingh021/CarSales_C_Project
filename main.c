@@ -602,7 +602,7 @@ void LoadFeedbackDataFromBufferToStruct(struct Feedback feedbackData[], char *da
 void ViewCarStock(struct Car carData[], int numberOfCars)
 {
     // Sort car data into a descending array by year of manufacture
-    printf("\nView Car Stock! (Ordered by Descending).\n");
+    printf("\nView Car Stock! (Ordered Descending by Year of Manufacture).\n");
     for (int i = 0; i < numberOfCars; i++)
     {
         printf("\n%d) %s %s %d | %d remaining.", i + 1, carData[i].car_make, carData[i].car_model, carData[i].year_of_manufacture, carData[i].remaining_amount);
@@ -963,7 +963,7 @@ void ViewSalesData(struct Car carData[], int numberOfCars, struct Transaction tr
         printf("%d) %s %s %d sold %d units for a total of $%d.\n", i + 1, carData[i].car_make, carData[i].car_model, carData[i].year_of_manufacture, carData[i].sold_amount, carData[i].total_sales_amount);
     }
 
-    printf("\nCustomer Sales Data! (Ordered by Descending):\n\n");
+    printf("\nCustomer Sales Data! (Ordered Descending by Sales Amount):\n\n");
     for (int i = 0; i < transactionsCount; i++)
     {
         if (transactionData[i].discount_given)
