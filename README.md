@@ -6,6 +6,6 @@ I've included all the university-mandated requirements in the attached '**Projec
 
 ## Update🎉
 
-The project was marked a while back and now that I have some time here are the results -> **82.5**%.
+The project was marked a while back and now that I have some time here are the results - **82.5**%.
 
 Here is the feedback I recieved from the grader "***Your project is exemplary, showcasing a deep understanding of programming concepts and skillful implementation. The use of advanced features like struct integration and comprehensive data handling is impressive. Your coding standards are outstanding, with well-organized and clearly documented code. The logbook reflects your learning journey effectively, though it could benefit from more technical detail about your coding process. Overall, your work demonstrates exceptional proficiency and a strong commitment to learning and applying advanced programming skills. Keep up the excellent work!***".
